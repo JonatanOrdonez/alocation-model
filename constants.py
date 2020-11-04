@@ -13,7 +13,7 @@ days = 20  # Proyección en días del modelo
 epsilon = 12  # LOSS promedio
 gompertzParamsLength = 6
 
-citiesLengthIndex = range(citiesLength)  # Indices de ciudades
+citiesIndex = range(citiesLength)  # Indices de ciudades
 daysIndex = range(days)  # Indices de días
 
 sigmasPath = "./assets/sigmas.csv"
