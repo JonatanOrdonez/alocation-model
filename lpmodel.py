@@ -1,7 +1,6 @@
 from pulp import LpProblem, LpMinimize, LpVariable, LpInteger, lpSum, LpStatus
 import constants as ct
 import numpy as np
-import matplotlib.pyplot as plt
 
 
 class Lpmodel:
